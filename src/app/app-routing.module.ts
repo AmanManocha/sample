@@ -4,7 +4,25 @@ import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 
-cons
+const routes: Routes = [
+  {
+    path:'home',
+    component:HomeComponent,
+  },
+  {
+    path:'',
+    component:HomeComponent,
+  },
+  {
+    path:'Register',
+    component:RegisterComponent,
+  },
+  {
+    path:'login',
+    component:LoginComponent,
+  }
+
+
 
 
 ]
@@ -15,3 +33,6 @@ cons
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
+
+1234567894556516654565266555
